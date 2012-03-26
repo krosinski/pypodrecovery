@@ -1,0 +1,16 @@
+Prerequisites:
+
+python: 2.X (2.7 advised)
+id3-py: http://id3-py.sourceforge.net/
+
+Usage:
+
+In order to recover music from your portable mp3 player run:
+
+    ./pypodrecovery.py -c -v <your_portable_mp3_mount_point> <destination_folder>
+
+This command will scan your device and copy all mp3 files to the destination_folder, the directory structure and destination filename depends on the ID3 tags
+
+This script may also be used to rebuild existing directory structures containing music, for additional information please run:
+
+    ./pypodrecovery.py --help
